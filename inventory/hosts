@@ -1,0 +1,4 @@
+[web]
+web ansible_host=127.0.0.1 ansible_port=2204 ansible_user=vagrant ansible_ssh_private_key_file=/root/OTUS/Otus_Unit_15_Logs/.vagrant/machines/web/virtualbox/private_key
+[logs]
+log ansible_host=127.0.0.1 ansible_port=2203 ansible_user=vagrant ansible_ssh_private_key_file=/root/OTUS/Otus_Unit_15_Logs/.vagrant/machines/log/virtualbox/private_key
