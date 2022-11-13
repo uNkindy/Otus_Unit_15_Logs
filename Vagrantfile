@@ -25,7 +25,8 @@ Vagrant.configure("2") do |config|
 
   config.vm.define "log" do |log|
     config.vm.box = 'almalinux/8'
-  
+    config.vm.disk :disk, name: "db", size: "10GB"
+
     log.vm.host_name = 'log'
     log.vm.network "private_network", ip: "192.168.56.241"
   
@@ -35,4 +36,3 @@ Vagrant.configure("2") do |config|
     end
     end
 end
-  
